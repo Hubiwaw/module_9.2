@@ -7,6 +7,6 @@ console.log(allNames);
 var newName = "Marian";
 
 if (allNames.indexOf(newName) === -1) {
-    var allNames = allNames.push(newName); // At this momen tabel "allNames" has new long equal 9
+    allNames = allNames.push(newName); // At this momen tabel "allNames" has new long equal 9
     console.log(allNames);    
 }
